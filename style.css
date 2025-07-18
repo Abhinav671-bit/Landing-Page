@@ -63,4 +63,48 @@ body {
 .header-button:hover {
     background-color: #2563EB; /* A nice blue shade */
   }
-  
+
+
+  /*MIDDLE LAYER */
+.random-text-top{
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Roboto',sans-serif;
+    padding: 30px;
+    font-size: 35px;
+}
+.random-info-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 200px;
+    flex-wrap: wrap;
+    border:2px solid red;
+    margin-bottom: 200px;
+}
+.block1,.block2,.block3,.block4{
+    width:100%;
+    min-width: 150px;
+    flex: 0 0 200px;
+}
+.block1,.block2,.block3,.block4 img{
+    width:100%;
+    height: auto;
+}
+
+
+
+/*Quote */
+.Testimony{
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Roboto',sans-serif;
+    font-style: italic;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 140px 200px;
+}
+.name{
+    text-align: right;
+    font-size: 28px;
+    font-weight: 900;
+}
