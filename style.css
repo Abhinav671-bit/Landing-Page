@@ -61,7 +61,7 @@ body {
     transition: background-color 0.3s ease;
 }
 .header-button:hover {
-    background-color: #2563EB; /* A nice blue shade */
+    background-color: #2563EB; /
   }
 
 
@@ -75,20 +75,31 @@ body {
 }
 .random-info-container{
     display: flex;
-    justify-content: space-around;
-    padding: 0 200px;
+    justify-content: center;
+    /* padding: 0 200px; */
     flex-wrap: wrap;
-    border:2px solid red;
+    /* border:2px solid red; */
     margin-bottom: 200px;
+    gap:20px;
 }
-.block1,.block2,.block3,.block4{
-    width:100%;
-    min-width: 150px;
-    flex: 0 0 200px;
-}
-.block1,.block2,.block3,.block4 img{
-    width:100%;
+
+.block1 img,
+.block2 img,
+.block3 img,
+.block4 img {
+    width: 100%; 
+    max-width: 300px;  
     height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+.block1,
+.block2,
+.block3,
+.block4 {
+    text-align: center;
+    /* padding: 20px; */
 }
 
 
@@ -108,3 +119,55 @@ body {
     font-size: 28px;
     font-weight: 900;
 }
+
+
+/*footer */
+.footer-container{
+    padding:40px 80px;
+}
+.dialog-box{
+    display:flex;
+    justify-content: space-around;
+    background-color: #2563EB;
+    padding: 40px;
+}
+.footer-button {
+    background-color: #2563EB;;
+    color: #E5E7EB;
+    padding: 12px 24px;
+    border-color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.3s ease;
+    box-shadow: none
+
+
+}
+  
+  
+  
+  .footer-button:hover {
+    background-color: blue;
+  }
+  
+  
+  .text-top{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .text-down{
+    color: #F9FAF8;
+  }
+
+
+  .footer-bottom{
+    background-color: #1F2937;
+    padding: 10px;
+    text-align: center;
+    color: #F9FAF8;
+    font-size: 24px;
+  }
